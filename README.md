@@ -21,7 +21,6 @@
 - **Hugging Face Transformers**: BLIP, CLIP
 - **PyTorch** for model execution
 - **Pillow (PIL)** for image I/O
-- **pymongo** (optional) for MongoDB/Atlas Vector Search integration
 
 ---
 
@@ -154,15 +153,8 @@ Hugging Face caches models on first run (typically under `~/.cache/huggingface`)
 
 ---
 
-## License
-
-MIT — do whatever you want, but no warranty. See `LICENSE` (add one if missing).
-
----
-
 ## Acknowledgements
 
 - BLIP — https://huggingface.co/docs/transformers/model_doc/blip
 - CLIP — https://huggingface.co/docs/transformers/model_doc/clip
 - FastAPI — https://fastapi.tiangolo.com/
-- MongoDB Atlas Vector Search — https://www.mongodb.com/products/platform/atlas-vector-search (optional)
